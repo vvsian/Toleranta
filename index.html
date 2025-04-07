@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toleranța începe cu noi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-logo">
+                <i class="fas fa-hands-helping"></i>
+                <span>Toleranța</span>
+            </div>
+            <div class="nav-links">
+                <a href="#despre">Despre</a>
+                <a href="#rezultate">Rezultate</a>
+                <a href="#concluzie">Concluzie</a>
+                <a href="#participa">Participă</a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="credits-banner">
+            <div class="banner-content">
+                <div class="banner-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="banner-text">
+                    <p>Proiect realizat cu ajutorul</p>
+                    <div class="banner-participants">
+                        <span class="participants-students">elevilor de la Liceul Teoretic Magdacesti</span>
+                        <span class="participants-teacher">și al profesoarei Angela Bruma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Toleranța <span>începe cu noi</span></h1>
+                    <p class="subtitle">Un studiu despre toleranță și acceptare în Liceul Teoretic Magdacesti, bazat pe răspunsurile a peste 20 de participanți din diferite medii sociale și culturale.</p>
+                    <div class="header-buttons">
+                        <a href="#rezultate" class="btn btn-primary">Vezi rezultatele</a>
+                        <a href="#participa" class="btn btn-outline">Participă și tu</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Toleranță">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories" id="despre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aspecte cheie ale toleranței</h2>
+                <p>Toleranța reprezintă respectul, acceptarea și aprecierea bogăției și diversității culturilor lumii noastre. Iată câteva dintre cele mai importante aspecte ale toleranței în societatea modernă.</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Acceptare</h3>
+                    <p>Acceptarea diferențelor și diversității ca parte naturală a societății și recunoașterea valorii fiecărui individ.</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Respect</h3>
+                    <p>Respectul pentru opiniile, credințele și valorile diferite ale celorlalți, chiar și atunci când nu suntem de acord cu ele.</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Dialog</h3>
+                    <p>Comunicarea deschisă și onestă între diferite grupuri sociale și etnice pentru a construi punți de înțelegere și cooperare.</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Incluziune</h3>
+                    <p>Crearea unui mediu în care toți oamenii se simt bineveniți, apreciați și au oportunități egale de dezvoltare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="survey-results" id="rezultate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rezultatele studiului</h2>
+                <p>Iată ce am descoperit în urma chestionarului aplicat unui grup divers de peste 20 de participanți din Liceul Teoretic Magdacesti. Studiul nostru a explorat atitudinile, percepțiile și experiențele legate de toleranță și diversitate etnică.</p>
+            </div>
+            
+            <div class="question-grid">
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Ce înseamnă toleranța?</h3>
+                        <div class="answers">
+                            <ul class="answers-list">
+                                <li>Acceptarea persoanelor cu valori și origine diferită</li>
+                                <li>Respectarea și acceptarea diferențelor dintre oameni</li>
+                                <li>Respectul față de capacitățile, aparența, și opiniile unei persoane</li>
+                                <li class="hidden-answer">Toleranță este atunci când îi acceptăm pe cei din jur așa cum sunt ei fără să judecăm</li>
+                                <li class="hidden-answer">Acceptarea lipsei de claritate</li>
+                                <li class="hidden-answer">A accepta că nu toți suntem la fel, că există diferențe și că aceste diferențe nu sunt ceva rău</li>
+                                <li class="hidden-answer">Capacitatea de a accepta și respecta opiniile, credințele, comportamentele sau diferențele altora</li>
+                                <li class="hidden-answer">Toleranța este: respectul și acceptarea altei persoane</li>
+                                <li class="hidden-answer">Atitudinea prin care îi tratezi pe toți în mod egal, indiferent de caracteristicile lor specifice</li>
+                                <li class="hidden-answer">Atunci când ideile, opiniile și viziunile diferite sunt acceptate</li>
+                            </ul>
+                            <button class="view-more-btn">Vezi toate răspunsurile <i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Cum putem fi mai toleranți?</h3>
+                        <div class="answers">
+                            <ul class="answers-list">
+                                <li>Prin acceptarea valorilor diferite</li>
+                                <li>Evitând stereotipurile și generalizările</li>
+                                <li>Acceptând diversitatea</li>
+                                <li class="hidden-answer">Prin a ține gândurile și opiniile negative față de persoanele mai incapabile sau cu calități ce nu ne convin înăuntrul nostru</li>
+                                <li class="hidden-answer">Acceptăm lipsa de claritate</li>
+                                <li class="hidden-answer">Să acceptăm pe ceilalți, să îi respectăm și empatizăm</li>
+                                <li class="hidden-answer">Să învățăm să ne controlăm și să vedem partea bună a lucrurilor</li>
+                                <li class="hidden-answer">Acceptăm diferențele fizice, de gândire și de comportament ale altor persoane</li>
+                                <li class="hidden-answer">Prin educarea de mici cu o viziune tolerantă față de toți</li>
+                                <li class="hidden-answer">A vedea cum de fapt sunt văzuți cei discriminați și a ne pune în pielea lor</li>
+                            </ul>
+                            <button class="view-more-btn">Vezi toate răspunsurile <i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-subheader">
+                <h3>Experiențe și percepții despre toleranță</h3>
+                <p>Participanții au împărtășit experiențele lor personale și percepțiile despre toleranță în societate.</p>
+            </div>
+            
+            <div class="question-grid">
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Ai auzit vreodată glume sau comentarii negative față de o etnie?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart1"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Dacă da, ai reacționat sau ai rămas neutru?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Crezi că în Republica Moldova există toleranța între diferite grupuri etnice?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart3"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-subheader">
+                <h3>Stereotipuri și atitudini față de grupuri etnice</h3>
+                <p>Am explorat stereotipurile existente și atitudinile față de diferite grupuri etnice din Republica Moldova.</p>
+            </div>
+            
+            <div class="question-grid">
+                <div class="question-block full-width">
+                    <div class="question-content">
+                        <h3>Cu care din următoarele etnii din Republica Moldova există cele mai multe stereotipuri?</h3>
+                        <div class="chart-container bar-chart-container">
+                            <canvas id="chart4"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-subheader">
+                <h3>Atitudini specifice față de comunitatea romă</h3>
+                <p>Studiul nostru a acordat o atenție specială atitudinilor față de comunitatea romă, care se confruntă cu cele mai multe stereotipuri.</p>
+            </div>
+            
+            <div class="question-grid">
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Ai fi dispus să participi la un proiect care ar viza integrarea romilor?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart5"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Crezi că romii au aceleași șanse în educație și încadrarea în câmpul muncii?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart6"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block">
+                    <div class="question-content">
+                        <h3>Te-ai simți confortabil cu un coleg de etnie romă?</h3>
+                        <div class="chart-container">
+                            <canvas id="chart7"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question-block full-width">
+                    <div class="question-content">
+                        <h3>Sugestii pentru a îmbunătăți atitudinea față de romi</h3>
+                        <div class="answers">
+                            <ul>
+                                <li>Organizarea de activități comune în școli sau comunități, unde copiii și adulții să colaboreze și să se cunoască mai bine</li>
+                                <li>Educația față de cultura lor, precum și educația de acasă privind diferențele dintre oameni</li>
+                                <li>Studierea acestei etnii și promovarea toleranței față de ei</li>
+                                <li class="hidden-answer">A nu ne batjocori de ei și a le tolera ca persoană. Tăcem și nu ne formăm opinii negative</li>
+                                <li class="hidden-answer">Singura sugestie e cea de a fi mai buni și respectuoși</li>
+                                <li class="hidden-answer">Să te pui în locul persoanei și să te gândești cum te-ai simți dacă cuvintele de ură vor veni asupra ta</li>
+                                <li class="hidden-answer">Să nu-i judecăm și să nu credem toate stereotipurile</li>
+                                <li class="hidden-answer">Să discutăm împreună cu ei ca să ne cunoaștem mai bine și să încercăm să ne respectăm și ajutăm reciproc</li>
+                                <li class="hidden-answer">Romii tot sunt oameni și noi trebuie să înțelegem că ei au tot o viață care vreau s-o trăiască frumos</li>
+                                <li class="hidden-answer">Societatea este nevoită să accepte faptul că "diferitul" mereu înseamnă ceva bun</li>
+                            </ul>
+                            <button class="view-more-btn">Vezi toate răspunsurile <i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="conclusion" id="concluzie">
+        <div class="container">
+            <div class="section-header">
+                <h2>Concluzie</h2>
+                <p>Ce am învățat din acest studiu despre toleranță în Liceul Teoretic Magdacesti și care sunt pașii următori pentru construirea unei societăți mai incluzive.</p>
+            </div>
+            <div class="conclusion-content">
+                <div class="conclusion-text">
+                    <p>Studiul nostru a arătat că, deși majoritatea respondenților (63.6%) consideră că în Republica Moldova există un nivel de toleranță între diferite grupuri etnice, persistă încă stereotipuri și prejudecăți, în special față de comunitatea romă (77.3%).</p>
+                    <p>Este îngrijorător faptul că doar 38.1% dintre respondenți ar fi dispuși să participe la proiecte de integrare a romilor, iar 9.1% nu s-ar simți confortabil cu un coleg de etnie romă.</p>
+                    <p>Este important să continuăm dialogul despre toleranță și să promovăm educația interculturală pentru a construi o societate mai incluzivă și mai deschisă, în care fiecare persoană să fie tratată cu respect și demnitate, indiferent de originea sa etnică.</p>
+                </div>
+                <div class="conclusion-image">
+                    <img src="https://images.unsplash.com/photo-1522543558187-768b6df7c25c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Concluzie">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="student-message">
+        <div class="container">
+            <div class="message-box">
+                <div class="student-quote">
+                    <p class="motto">"Fiecare persoană merită respect, indiferent de etnie. Când judecăm mai puțin și înțelegem mai mult, creăm o lume mai bună pentru toți."</p>
+                    <p class="signature">~ Elevii clasei a IX-a</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="participate" id="participa">
+        <div class="container">
+            <div class="section-header">
+                <h2>Participă și tu</h2>
+                <p>Suntem interesați să aflăm și opinia ta despre toleranță și diversitate etnică în Republica Moldova. Completează chestionarul nostru și contribuie la această cercetare importantă.</p>
+            </div>
+            <div class="participate-content">
+                <div class="participate-text">
+                    <p>Chestionarul conține întrebări despre experiențele tale personale, percepțiile și atitudinile față de diferite grupuri etnice din Republica Moldova. Completarea chestionarului durează aproximativ 5-10 minute.</p>
+                    <p>Toate răspunsurile sunt anonime și vor fi utilizate doar în scopuri de cercetare pentru a înțelege mai bine situația actuală și pentru a dezvolta inițiative care promovează toleranța și incluziunea.</p>
+                    <div class="participate-buttons">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPvJdqpEKpm6fQ9G3a7WayroBZoELXz_QWVu64zMHi8dAlrg/viewform?usp=preview" target="_blank" class="btn btn-primary">Completează chestionarul</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
